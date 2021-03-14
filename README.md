@@ -1,5 +1,5 @@
 # Sample React app
-A web app using React Javascript library to demonstrate the concept of pipeline as code in [TeamCity](https://www.jetbrains.com/teamcity/)
+A simple web app using React Javascript library
 
 ## Pre-requisites
 1. Install [Node JS](https://nodejs.org/en/download/)
