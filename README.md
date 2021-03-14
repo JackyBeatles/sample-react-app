@@ -9,8 +9,8 @@ A web app using React Javascript library to demonstrate the concept of pipeline 
 
 In the commandline,
 
-1. Use `yarn install` to install the dependencies
-2. Use `yarn start` to start react in development mode
+1. Use `npm install` to install the dependencies
+2. Use `npm start` to start react in development mode
 3. The browser would open automatically. If not, open a browser and go to url: http://localhost:3000
 
 ## TeamCity
