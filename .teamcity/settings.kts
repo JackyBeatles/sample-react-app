@@ -1,4 +1,5 @@
 import jetbrains.buildServer.configs.kotlin.*
+import jetbrains.buildServer.configs.kotlin.buildSteps.ScriptBuildStep
 import jetbrains.buildServer.configs.kotlin.buildSteps.script
 import jetbrains.buildServer.configs.kotlin.triggers.vcs
 
@@ -45,7 +46,9 @@ object Build : BuildType({
         }
         script {
             name = "Run tests"
-            scriptContent = "npm run verify "
+            scriptContent = "npm run verify"
+            dockerImagePlatform = ScriptBuildStep.ImagePlatform.Linux
+            dockerImage = "docker pull ppodgorsek/robot-framework"
         }
     }
 
