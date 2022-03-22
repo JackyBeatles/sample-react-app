@@ -46,7 +46,7 @@ object Build : BuildType({
         }
         script {
             name = "Run tests"
-            scriptContent = "npm run verify"
+            scriptContent = "robot --version"
             dockerImagePlatform = ScriptBuildStep.ImagePlatform.Linux
             dockerImage = "docker pull ppodgorsek/robot-framework"
         }
